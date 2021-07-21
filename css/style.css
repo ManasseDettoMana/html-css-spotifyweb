@@ -24,6 +24,9 @@ main{
 .fl{
     float: left;
 }
+.fr{
+    float: right;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -94,8 +97,6 @@ main{
 
 
 
-
-
 #main-section{
     width: calc(100% - 200px);
     height: 100%;
@@ -104,9 +105,29 @@ main{
     height: 100px;
     width: 100%;
     background-color: blue;
-    position: fixed;
-    z-index: 1001;
+    /* position: fixed; */
+    /* z-index: 1001; */
+    text-align: right;
 }
+
+#ue{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+#banner-top span{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+}
+
+
+
 
 footer{
     height: 100px;
