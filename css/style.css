@@ -199,6 +199,10 @@ h1{
     margin-bottom: 10px;
 }
 
+#popular-artists .copertina img{
+    border-radius: 50%;
+}
+
 footer{
     height: 100px;
     width: 100%;
