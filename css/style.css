@@ -127,7 +127,8 @@ main{
     background-color: rgba(0, 0, 0, .3);
     /* position: fixed; */
     /* z-index: 1001; */
-    text-align: right;
+    /* text-align: right; */
+    justify-content: flex-end;
 }
 #banner-top span{
     color: white;
@@ -137,7 +138,7 @@ main{
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;
-    align-items: center;
+    align-self: center;
 }
 #main-section nav{
     width: 50%;
@@ -168,7 +169,6 @@ h1{
 }
 
 .song-list{
-    /* justify-content: space-between; */
     margin-top: 40px;
     flex-wrap: wrap-reverse;
 }
