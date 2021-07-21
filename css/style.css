@@ -146,10 +146,42 @@ main{
     text-transform: uppercase;
     height: 20px;
 }
+#main-section h1,
+#main-section h3{
+    color: white;
+}
 
+h1{
+    margin-bottom: 40px;
+}
 
+.song-list{
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
 
+.song{
+    width: 200px;
+    /* height: 300px; */
+}
 
+.copertina{
+    width: 100%;
+    height: 200px;
+}
+.song img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title h2{
+    margin-bottom: 10px;
+}
 
 footer{
     height: 100px;
