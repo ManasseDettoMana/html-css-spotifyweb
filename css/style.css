@@ -38,7 +38,6 @@ main{
     height: 100%;
     background-color: black;
     overflow-y: hidden;
-    position: relative;
 }
 .centratura{
     width: 90%;
@@ -50,7 +49,8 @@ main{
 }
 #side-nav ul li{
     cursor: pointer;
-    margin: 20px 0;
+    margin: 10px 0;
+    list-style-type: none;
 }
 #side-nav ul li img {
     width: 15%;
@@ -66,13 +66,25 @@ main{
     width: 50px;
     height: 50px;
     background-color: rgb(177, 177, 177);
-    display: inline-block;
     vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#nav-bar__bottom{
-    position: absolute;
-    bottom: 0;
+#side-nav ul li div i{
+    color: black;
+    font-size: 1.5em;
 }
+
+
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+
+
 #nav-bar__bottom div{
     border: 1px solid grey;
     margin: 10px 0;
@@ -115,6 +127,7 @@ main{
     width: 100%;
     justify-content: flex-end;
 }
+
 #banner-top span{
     color: white;
     border: 1px solid white;
