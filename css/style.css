@@ -12,11 +12,14 @@ a{
     text-decoration: none;
     color: grey;
 }
+li{
+    list-style-type: none;
+}
 
 .container{
     width: 100%;
     height: calc(100vh - 100px);
-    background-color: yellow;
+    background-color: rgb(30, 30, 46);
 }
 main{
     height: 100%;
@@ -66,7 +69,6 @@ main{
     width: 50px;
     height: 50px;
     background-color: rgb(177, 177, 177);
-    vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +110,6 @@ main{
 
 
 
-
 #main-section{
     width: calc(100% - 200px);
     height: 100%;
@@ -116,18 +117,11 @@ main{
 #banner-top{
     height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color: rgba(0, 0, 0, .3);
     /* position: fixed; */
     /* z-index: 1001; */
     text-align: right;
 }
-
-#ue{
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-}
-
 #banner-top span{
     color: white;
     border: 1px solid white;
@@ -138,6 +132,21 @@ main{
     display: inline-block;
     align-items: center;
 }
+#main-section nav{
+    width: 50%;
+    margin: 0 auto;
+}
+#main-section ul{
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#main-section ul li{
+    text-transform: uppercase;
+    height: 20px;
+}
+
 
 
 
