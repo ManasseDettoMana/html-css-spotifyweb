@@ -160,6 +160,9 @@ main{
 
 h1{
     font-size: 2em;
+}
+
+.title-section{
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -167,7 +170,7 @@ h1{
 .song-list{
     /* justify-content: space-between; */
     margin-top: 40px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
 }
 
 .song{
